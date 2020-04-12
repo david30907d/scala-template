@@ -15,8 +15,8 @@
     }
   },
   "lint-staged": {
-    "**/*.py": [
-      "scalafmt .",
+    "**/*.scala": [
+      "scalafmt",
       "git add"
     ]
   },
